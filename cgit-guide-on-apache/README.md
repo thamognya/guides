@@ -57,3 +57,5 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 </IfModule>
  ```
 
+
+if you use certbot which I will there will be a few things below `</directory>` but I removed it for this guide.
